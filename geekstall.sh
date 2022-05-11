@@ -1,7 +1,3 @@
-if [[ $EUID -ne 0 ]]; then
-   echo "You Must Have Root" 
-   exit 1
-fi
 sudo apt update
 sudo apt upgrade
 sudo apt install menu
