@@ -22,7 +22,6 @@ sleep 2
 clear
 figlet GeekStall | lolcat
 echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
-echo -e "\e[1;31m Next Time Run The Script the script with: bash termux.sh | lolcat\e[0m"
 echo -e "\e[1;31m Email: zaidoaidoalfredo@gmail.com \e[0m"
 sleep 2
 PS3='root@localstall '
