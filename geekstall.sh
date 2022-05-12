@@ -53,20 +53,12 @@ do
             git clone https://github.com/palahsu/DDoS-Ripper
             cd DDoS-Ripper
             python3 DRipper.py
-            sleep 2
-            clear
-            figlet Press Enter
             ;;
         "zphisher")
             cd ..
             git clone https://github.com/htr-tech/zphisher.git | lolcat
             cd zphisher
             sudo bash zphisher.sh
-            sleep 2
-            figlet Press Enter
-            sleep 2
-            exit
-            
             cd
             clear | lolcat
             figlet installed | lolcat
