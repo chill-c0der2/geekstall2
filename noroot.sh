@@ -55,7 +55,6 @@ do
             python3 DRipper.py
             sleep 2
             clear
-            figlet Press Enter
             ;;
         "zphisher")
             cd ..
@@ -65,18 +64,12 @@ do
             sleep 2
             figlet Press Enter
             sleep 2
-            exit
-            
-            cd
-            clear | lolcat
-            figlet installed | lolcat
-            sleep 2 | lolcat
-            clear
             ;;
         "routersploit")
             cd ..
             git clone https://github.com/threat9/routersploit.git
-            cd
+            cd routersploit
+            python3 rsf.py
             clear
             sleep 2
             ;;
