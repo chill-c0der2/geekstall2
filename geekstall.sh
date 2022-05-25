@@ -1,7 +1,13 @@
 sudo apt update
 sudo apt upgrade
-sudo apt install menu
-sudo apt install figlet
+REQUIRED_PKG="figlet lolcat neofetch python3 ruby"
+PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
+echo Checking for $REQUIRED_PKG: $PKG_OK
+if [ "" = "$PKG_OK" ]; then
+  echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
+  sudo apt-get --yes install $REQUIRED_PKG 
+fi
+
 sudo apt install neofetch
 sudo apt install lolcat
 sudo apt install git
