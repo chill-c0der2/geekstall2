@@ -7,12 +7,6 @@ if [ "" = "$PKG_OK" ]; then
   echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
   sudo apt-get --yes install $REQUIRED_PKG 
 fi
-
-sudo apt install neofetch
-sudo apt install lolcat
-sudo apt install git
-sudo apt install python3
-sudo apt install ruby
 gem install lolcat
 clear
 echo DETECTING.
