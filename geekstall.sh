@@ -1,4 +1,5 @@
-bash 1.sh
+sudo apt install git
+sudo apt install figlet
 clear
 echo DETECTING.
 sleep 1
@@ -16,7 +17,7 @@ echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
 echo -e "\e[1;31m Email: zaidoaidoalfredo@gmail.com \e[0m"
 sleep 2
 PS3='root@localstall'
-options=("nmap" "aircrack" "zphisher" "routersploit" "DDos") 
+options=("nmap" "aircrack" "zphisher" "routersploit" "DDos" "airgeddon") 
 select opt in "${options[@]}" 
 do
     case $opt in
@@ -30,38 +31,33 @@ do
             clear
             ;;
         "aircrack")
-            cd ..
             sudo apt install aircrack-ng | lolcat
-            sleep 2 | lolcat
-            aircrack-ng | lolcat
-            sleep 5 | lolcat
-            figlet installed | lolcat
-            sleep 2 | lolcat
             clear
             ;;
             "DDos")
             cd ..
             git clone https://github.com/palahsu/DDoS-Ripper
             cd DDoS-Ripper
-            python3 DRipper.py
+            sudo apt install python3
+            cd geekstall2
             ;;
         "zphisher")
             cd ..
             git clone https://github.com/htr-tech/zphisher.git | lolcat
-            cd zphisher
-            sudo bash zphisher.sh
-            cd
-            clear | lolcat
-            figlet installed | lolcat
-            sleep 2 | lolcat
+            cd geekstall2
             clear
             ;;
         "routersploit")
             cd ..
             git clone https://github.com/threat9/routersploit.git
-            cd
+            cd geekstall2
             clear
             sleep 2
+            ;;
+            "airgeddon")
+            cd ..
+            git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+            cd geekstall2
             ;;
         *) echo "invalid!! $REPLY";;
     esac
