@@ -21,6 +21,7 @@ do
     case $opt in
         "nmap")
             apt install nmap
+            clear
             ;;
         "aircrack")
             apt install aircrack-ng | lolcat
@@ -50,6 +51,7 @@ do
             cd ..
             git clone https://github.com/v1s1t0r1sh3r3/airgeddon
             cd geekstall2
+            clear
         *) echo "invalid!! $REPLY";;
     esac
 done | lolcat
