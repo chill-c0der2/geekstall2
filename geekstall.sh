@@ -21,6 +21,7 @@ do
     case $opt in
         "nmap")
             sudo apt install nmap
+            clear
             ;;
         "aircrack")
             sudo apt install aircrack-ng | lolcat
@@ -31,6 +32,7 @@ do
             sudo apt install python3
             git clone https://github.com/palahsu/DDoS-Ripper
             cd geekstall2
+            clear
             ;;
         "zphisher")
             cd ..
@@ -44,13 +46,13 @@ do
             git clone https://github.com/threat9/routersploit.git
             cd geekstall2
             clear
-            sleep 2
             ;;
             "airgeddon")
             cd ..
             git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
             cd geekstall2
+            clear
             ;;
-        *) echo "invalid!! $REPLY";;
+        *) echo "are you brain dead $REPLY";;
     esac
 done
