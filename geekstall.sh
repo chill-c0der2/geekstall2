@@ -1,5 +1,3 @@
-sudo apt install git
-sudo apt install figlet
 clear
 echo DETECTING.
 sleep 1
@@ -22,13 +20,7 @@ select opt in "${options[@]}"
 do
     case $opt in
         "nmap")
-            sudo apt install nmap| lolcat
-            sleep 2 | lolcat
-            nmap | lolcat
-            sleep 5 | lolcat
-            figlet installed | lolcat
-            sleep 2 | lolcat
-            clear
+            sudo apt install nmap
             ;;
         "aircrack")
             sudo apt install aircrack-ng | lolcat
@@ -36,9 +28,8 @@ do
             ;;
             "DDos")
             cd ..
-            git clone https://github.com/palahsu/DDoS-Ripper
-            cd DDoS-Ripper
             sudo apt install python3
+            git clone https://github.com/palahsu/DDoS-Ripper
             cd geekstall2
             ;;
         "zphisher")
@@ -49,6 +40,7 @@ do
             ;;
         "routersploit")
             cd ..
+            sudo apt install python3
             git clone https://github.com/threat9/routersploit.git
             cd geekstall2
             clear
