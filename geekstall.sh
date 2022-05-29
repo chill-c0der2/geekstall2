@@ -53,6 +53,6 @@ do
             cd geekstall2
             clear
             ;;
-        *) echo "are you brain dead $REPLY";;
+        *) echo "are you brain dead $REPLY is not a command";;
     esac
 done
