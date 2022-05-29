@@ -52,6 +52,7 @@ do
             git clone https://github.com/v1s1t0r1sh3r3/airgeddon
             cd geekstall2
             clear
+            ;;
         *) echo "you must be stupid $REPLY is not a command";;
     esac
 done | lolcat
