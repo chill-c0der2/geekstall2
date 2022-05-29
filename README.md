@@ -8,6 +8,8 @@ Debian and Ubuntu based systems:
 
 [+] sudo apt install ruby
 
+[+] sudo apt install neofetch
+
 [+] gem install lolcat
 
 [+] git clone https://github.com/chill-c0der/geekstall.git
@@ -16,6 +18,7 @@ Debian and Ubuntu based systems:
 
 [+] sudo bash geekstall.sh | lolcat
 
+
 TERMUX:
 
 [+] apt update
@@ -23,6 +26,8 @@ TERMUX:
 [+] apt upgrade
 
 [+] apt install ruby
+
+apt install neofetch
 
 [+] gem install lolcat
 
