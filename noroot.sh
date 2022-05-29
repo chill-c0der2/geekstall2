@@ -27,6 +27,7 @@ do
             clear
             ;;
             "DDos")
+            apt install python3
             cd ..
             git clone https://github.com/palahsu/DDoS-Ripper
             cd geekstall2
