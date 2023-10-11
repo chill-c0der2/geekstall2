@@ -18,8 +18,10 @@ if ! which pip > /dev/null; then
    if "$REPLY" = "y"; then
       apt-get install python3-pip
    fi
-   ~
-   ~
-   ~
-   ~
    
+   else 
+   exit
+   ~
+   ~
+   ~
+   ~
