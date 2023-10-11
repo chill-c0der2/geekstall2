@@ -1,7 +1,4 @@
-if ! which python3 > /dev/null; then
-   echo -e "Command not found! Install? (y/n) \c"
-   read
-   if "$REPLY" = "y"; then
-      apt-get install python3
-   fi
+if [ $(dpkg-query -W -f='${Status}' nano 2>/dev/null | grep -c "ok installed") -eq 0 ];
+then
+  apt-get install nano;
 fi
