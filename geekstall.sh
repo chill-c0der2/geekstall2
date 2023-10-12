@@ -24,9 +24,6 @@ do
     echo -e "${GREEN}Installing"
         sudo apt install nmap
             clear
-            figlet GeekStall | lolcat
-echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
-echo -e "\e[1;31m Email: zaidyasinfrbackup@gmail.com \e[0m"
             ;;
         "aircrack")
             GREEN='\033[1;92m'
