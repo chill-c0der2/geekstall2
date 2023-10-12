@@ -1,4 +1,9 @@
-bash install.sh
+if (whoami != root)
+  then echo "Root Needed ¯\_(ツ)_/¯"
+
+  else (do stuff)
+fi
+bash root.sh
 clear
 echo DETECTING.
 sleep 1
