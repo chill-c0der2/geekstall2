@@ -1,9 +1,7 @@
-if (whoami != root)
-  then echo "Root Needed ¯\_(ツ)_/¯"
-
-  else (do stuff)
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root ¯\_(ツ)_/¯"
+  exit
 fi
-exit
 GREEN='\033[1;92m'
 if [ $(dpkg-query -W -f='${Status}' python3 2>/dev/null | grep -c "ok installed") -eq 0 ];
 then
