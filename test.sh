@@ -3,6 +3,6 @@ then
   apt-get install python3;
 fi
 if [[ $(command -v python3) ]]; then
-   GREEN="\033[0;92m'
+   GREEN='\033[0;92m'
     echo -e "${GREEN}python3 already installed"
 fi
