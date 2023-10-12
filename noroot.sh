@@ -18,7 +18,7 @@ echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
 echo -e "\e[1;31m Email: zaidoaidoalfredo@gmail.com \e[0m"
 sleep 2
 PS3='root@localstall: '
-options=("nmap" "aircrack" "zphisher" "routersploit" "DDos" "airgeddon") 
+options=("nmap" "aircrack" "zphisher" "routersploit" "DDos" "airgeddon" "Social-Engineer Toolkit") 
 select opt in "${options[@]}" 
 do
     case $opt in
