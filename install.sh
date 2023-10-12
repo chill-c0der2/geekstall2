@@ -40,11 +40,9 @@ sleep 2
 GREEN='\033[1;92m'
 if [ $(dpkg-query -W -f='${Status}' neofetch 2>/dev/null | grep -c "ok installed") -eq 0 ];
 then
-  apt-get install neofetfch;
+  apt-get install neofetch;
 fi
-if [[ $(command -v python3) ]]; then
+if [[ $(command -v neofetch) ]]; then
    GREEN='\033[1;92m'
     echo -e "${GREEN}neofetch already installed"
 fi
-
-
