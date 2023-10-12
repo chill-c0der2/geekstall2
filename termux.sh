@@ -1,4 +1,4 @@
-bash install/term.sh
+bash term.sh
 sleep 10
 clear
 echo DETECTING.
