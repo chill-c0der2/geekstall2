@@ -9,6 +9,7 @@ fi
 sleep 2
 if [ $(dpkg-query -W -f='${Status}' pip 2>/dev/null | grep -c "ok installed") -eq 0 ];
 then
+GREEN='\033[1;92m'
   apt-get install python3-pip;
 fi
 if [[ $(command -v pip) ]]; then
