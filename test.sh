@@ -4,7 +4,7 @@ then
 fi
 if [[ $(command -v python3) ]]; then
    GREEN='\033[0;92m'
-    echo -e "${GREEN}python3 already installed"
+    echo "${GREEN}python3 installed"
 fi
 sleep 2
 if [ $(dpkg-query -W -f='${Status}' pip 2>/dev/null | grep -c "ok installed") -eq 0 ];
@@ -23,6 +23,16 @@ then
 fi
 if [[ $(command -v pip) ]]; then
    GREEN='\033[0;92m'
-    echo -e "${GREEN}ruby is already installed"
+    echo "${GREEN}ruby is already installed"
 fi
+sleep 2
+if [ $(dpkg-query -W -f='${Status}' figlet 2>/dev/null | grep -c "ok installed") -eq 0 ];
+then
+  apt-get install figlet;
+fi
+if [[ $(command -v figlet) ]]; then
+   GREEN='\033[0;92m'
+    echo "${GREEN}figlet is already installed"
+fi
+
 
