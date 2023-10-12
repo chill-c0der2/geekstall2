@@ -15,4 +15,14 @@ if [[ $(command -v pip) ]]; then
    GREEN='\033[0;92m'
     echo -e "${GREEN}pip is already installed"
 fi
+sleep 2
+if [ $(dpkg-query -W -f='${Status}' ruby 2>/dev/null | grep -c "ok installed") -eq 0 ];
+then
+  apt-get install ruby
+  gem install lolcat;
+fi
+if [[ $(command -v pip) ]]; then
+   GREEN='\033[0;92m'
+    echo -e "${GREEN}ruby is already installed"
+fi
 
