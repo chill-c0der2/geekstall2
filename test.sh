@@ -3,5 +3,6 @@ then
   apt-get install python3;
 fi
 if [[ $(command -v python3) ]]; then
-    echo -e "${RED}python3 already installed"
+   GREEN="\e[32m"
+    echo -e "${GREEN}python3 already installed"
 fi
