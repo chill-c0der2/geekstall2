@@ -72,6 +72,7 @@ do
             cd ..
             git clone https://github.com/trustedsec/social-engineer-toolkit
             cd geekstall2
+            ;;
             
         *) echo "are you brain dead $REPLY is not a command";;
     esac
