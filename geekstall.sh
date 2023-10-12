@@ -1,7 +1,7 @@
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root ¯\_(ツ)_/¯"
   exit
-bash /install/root.sh
+bash geekstall2/install/root.sh
 clear
 echo DETECTING.
 sleep 1

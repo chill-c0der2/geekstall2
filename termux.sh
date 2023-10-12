@@ -1,4 +1,4 @@
-bash /install/term.sh
+bash geekstall2/install/term.sh
 sleep 10
 clear
 echo DETECTING.
