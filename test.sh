@@ -22,7 +22,7 @@ then
   gem install lolcat;
 fi
 if [[ $(command -v pip) ]]; then
-   GREEN='\033[1;91m'
+   GREEN='\033[1;92m'
     echo -e "${GREEN}ruby is already installed"
 fi
 sleep 2
@@ -31,7 +31,7 @@ then
   apt-get install figlet;
 fi
 if [[ $(command -v figlet) ]]; then
-   GREEN='\033[1;95m' 
+   GREEN='\033[1;92m' 
     echo -e "${GREEN}figlet is already installed"
 fi
 
