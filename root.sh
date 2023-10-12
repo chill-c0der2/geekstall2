@@ -1,6 +1,4 @@
-if [ "$EUID" -ne 0 ]
-  then echo "Please run as root ¯\_(ツ)_/¯"
-  exit
+
 fi
 GREEN='\033[1;92m'
 if [ $(dpkg-query -W -f='${Status}' python3 2>/dev/null | grep -c "ok installed") -eq 0 ];

@@ -1,8 +1,6 @@
-if (whoami != root)
-  then echo "Root Needed ¯\_(ツ)_/¯"
-
-  else (do stuff)
-fi
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root ¯\_(ツ)_/¯"
+  exit
 bash root.sh
 clear
 echo DETECTING.
