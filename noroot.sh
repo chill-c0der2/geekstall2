@@ -1,5 +1,4 @@
 bash install.sh
-
 sleep 10
 clear
 echo DETECTING.
