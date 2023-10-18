@@ -73,6 +73,7 @@ do
             git clone https://github.com/trustedsec/social-engineer-toolkit
             cd geekstall2
             ;;
-        *) echo "you must be stupid $REPLY is not a command";;
+        *) echo "you must be stupid $REPLY is not a command"
+        ;;
     esac
 done | lolcat
