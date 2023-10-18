@@ -1,5 +1,15 @@
 bash root.sh
 clear
+if [[ $(command -v python3) ]]; then
+    echo "python3 is already installed"
+fi
+if ! which python3 > /dev/null; then
+   echo -e  "${GREEN}Install? (y/n) \c"
+   read
+   if "$REPLY" = "y"; then
+      sudo apt-get install command
+   fi
+fi
 echo DETECTING.
 sleep 1
 echo DETECTING..
@@ -11,7 +21,7 @@ sleep 2
 uname -a
 sleep 2
 clear
-figlet GeekStall | lolcat
+figlet GeekStall
 echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
 echo -e "\e[1;31m Email: zaidyasinfrbackup@gmail.com \e[0m"
 sleep 2
