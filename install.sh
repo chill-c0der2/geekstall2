@@ -1,4 +1,4 @@
-
+tput setaf 2; cat logo.txt
 PS3='LOCALSTALL@INSTALL: '
 options=("Debian Or Ubuntu Distros" "Termux" "Quit")
 select opt in "${options[@]}"
