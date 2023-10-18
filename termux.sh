@@ -1,5 +1,5 @@
 bash term.sh
-sleep 10
+sleep 5
 clear
 echo DETECTING.
 sleep 1
