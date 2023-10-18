@@ -26,31 +26,23 @@ do
             clear
             ;;
         "aircrack")
-            GREEN='\033[1;92m'
-             echo -e "${GREEN}Installing"
             apt install aircrack-ng | lolcat
             clear
             ;;
             "DDos")
-            GREEN='\033[1;92m'
-             echo -e "${GREEN}Installing"
             apt install python3
             cd ..
             git clone https://github.com/palahsu/DDoS-Ripper
-            cd geekstall2
+            cd geekstall2termux.sh
             clear
             ;;
-        "zphisher")
-            GREEN='\033[1;92m'
-             echo -e "${GREEN}Installing"
+        "zphisher")           
             cd ..
             git clone https://github.com/htr-tech/zphisher.git
             cd geekstall2
             clear
             ;;
         "routersploit")
-            GREEN='\033[1;92m'
-             echo -e "${GREEN}Installing"
             apt install python3
             cd ..
             git clone https://github.com/threat9/routersploit.git
@@ -58,16 +50,12 @@ do
             clear
             ;;
             "airgeddon")
-            GREEN='\033[1;92m'
-             echo -e "${GREEN}Installing"
             cd ..
             git clone https://github.com/v1s1t0r1sh3r3/airgeddon
             cd geekstall2
             clear
             ;;
             "Social-Engineer Toolkit")
-            GREEN='\033[1;92m'
-             echo -e "${GREEN}Installing"
              sleep 2
             cd ..
             git clone https://github.com/trustedsec/social-engineer-toolkit
