@@ -76,4 +76,4 @@ do
         *) echo "you must be stupid $REPLY is not a command"
         ;;
     esac
-done | lolcat
+done
