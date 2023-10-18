@@ -3,13 +3,7 @@ clear
 if [[ $(command -v python3) ]]; then
     echo "python3 is already installed"
 fi
-if ! which python3 > /dev/null; then
-   echo -e  "${GREEN}Install? (y/n) \c"
-   read
-   if "$REPLY" = "y"; then
-      sudo apt-get install command
-   fi
-fi
+ fi
 echo DETECTING.
 sleep 1
 echo DETECTING..
