@@ -1,4 +1,3 @@
-bash term.sh
 sleep 5
 clear
 echo DETECTING.
