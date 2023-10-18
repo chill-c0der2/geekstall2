@@ -3,7 +3,6 @@ clear
 if [[ $(command -v python3) ]]; then
     echo "python3 is already installed"
 fi
- fi
 echo DETECTING.
 sleep 1
 echo DETECTING..
