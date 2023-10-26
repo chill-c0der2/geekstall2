@@ -1,4 +1,5 @@
-tput setaf 2; cat logo.txt
+clear
+cat logo.txt
 PS3='LOCALSTALL@INSTALL: '
 options=("Debian Or Ubuntu Distros" "Termux" "Quit")
 select opt in "${options[@]}"
@@ -10,6 +11,7 @@ do
             sudo apt install neofetch
             sudo apt install ruby
             gem install lolcat
+            bash geekstall.sh
             ;;
         "Termux")
         apt install python3
@@ -17,6 +19,7 @@ do
         apt install neofetch
         apt install ruby
         gem install lolcat
+        bash termux.sh
          ;;
         "Quit")
             break
