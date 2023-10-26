@@ -1,11 +1,11 @@
 Debian and Ubuntu based systems: 
-
+-----------------
 [+] bash install.sh
 
 [+] Select Debian Or Ubuntu Distros
 
 TERMUX:
-
+-------------
 [+] git clone https://github.com/chill-c0der2/geekstall2
 
 [+] cd geekstall2
