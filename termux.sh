@@ -11,7 +11,7 @@ sleep 2
 uname -a
 sleep 2
 clear
-figlet GeekStall | lolcat
+cat logo.txt
 echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
 echo -e "\e[1;31m Email: zaidoaidoalfredo@gmail.com \e[0m"
 sleep 2
