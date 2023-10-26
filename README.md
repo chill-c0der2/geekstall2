@@ -1,5 +1,7 @@
 Debian and Ubuntu based systems: 
 -----------------
+[+] git clone https://github.com/chill-c0der2/geekstall2
+
 [+] bash install.sh
 
 [+] Select Debian Or Ubuntu Distros
