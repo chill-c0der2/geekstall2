@@ -11,6 +11,7 @@ do
             sudo apt install neofetch
             sudo apt install ruby
             gem install lolcat
+            clear
             bash geekstall.sh
             ;;
         "Termux")
@@ -19,6 +20,7 @@ do
         apt install neofetch
         apt install ruby
         gem install lolcat
+        clear
         bash termux.sh
          ;;
         "Quit")
