@@ -1,5 +1,3 @@
-sleep 5
-clear
 echo DETECTING.
 sleep 1
 echo DETECTING..
@@ -11,56 +9,70 @@ sleep 2
 uname -a
 sleep 2
 clear
-cat logo.txt
+figlet GeekStall
 echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
-echo -e "\e[1;31m Email: zaidoaidoalfredo@gmail.com \e[0m"
+echo -e "\e[1;31m Email: zaidyasinfrbackup@gmail.com \e[0m"
 sleep 2
 PS3='root@localstall: '
-options=("nmap" "aircrack" "zphisher" "routersploit" "DDos" "airgeddon" Social-Engineer Toolkit") 
+options=("nmap" "aircrack" "zphisher" "routersploit" "DDos" "airgeddon" "Social-Engineer Toolkit") 
 select opt in "${options[@]}" 
 do
     case $opt in
         "nmap")
-            apt install nmap
+            GREEN='\033[1;92m'
+    echo -e "${GREEN}Installing"
+        sudo apt install nmap
             clear
             ;;
         "aircrack")
-            apt install aircrack-ng | lolcat
+            GREEN='\033[1;92m'
+    echo -e "${GREEN}Installing"
+            sudo apt install aircrack-ng | lolcat
             clear
             ;;
             "DDos")
-            apt install python3
+            GREEN='\033[1;92m'
+    echo -e "${GREEN}Installing"
             cd ..
+            sudo apt install python3
             git clone https://github.com/palahsu/DDoS-Ripper
-            cd geekstall2termux.sh
+            cd geekstall2
             clear
             ;;
-        "zphisher")           
+        "zphisher")
+            GREEN='\033[1;92m'
+    echo -e "${GREEN}Installing"
             cd ..
-            git clone https://github.com/htr-tech/zphisher.git
+            git clone https://github.com/htr-tech/zphisher.git | lolcat
             cd geekstall2
             clear
             ;;
         "routersploit")
-            apt install python3
+            GREEN='\033[1;92m'
+    echo -e "${GREEN}Installing"
             cd ..
+            sudo apt install python3
             git clone https://github.com/threat9/routersploit.git
             cd geekstall2
             clear
             ;;
             "airgeddon")
+            GREEN='\033[1;92m'
+    echo -e "${GREEN}Installing"
             cd ..
-            git clone https://github.com/v1s1t0r1sh3r3/airgeddon
+            git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
             cd geekstall2
             clear
             ;;
             "Social-Engineer Toolkit")
+            GREEN='\033[1;92m'
+             echo -e "${GREEN}Installing"
              sleep 2
             cd ..
             git clone https://github.com/trustedsec/social-engineer-toolkit
             cd geekstall2
             ;;
-        *) echo "you must be stupid $REPLY is not a command"
-        ;;
+            
+        *) echo "are you brain dead $REPLY is not a command";;
     esac
 done
