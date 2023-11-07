@@ -1,3 +1,4 @@
+clear
 echo DETECTING.
 sleep 1
 echo DETECTING..

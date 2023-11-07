@@ -12,7 +12,7 @@ do
             sudo apt install ruby
             gem install lolcat
             clear
-            bash geekstall.sh
+            bash geekstall.sh | lolcat
             ;;
         "Termux")
         apt install python3
@@ -21,7 +21,7 @@ do
         apt install ruby
         gem install lolcat
         clear
-        bash termux.sh
+        bash termux.sh | lolcat
          ;;
         "Quit")
             break
