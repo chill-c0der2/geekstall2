@@ -1,3 +1,6 @@
+![Image](https://github.com/chill-c0der2/geekstall2/blob/main/Screenshot%202023-11-20%203.18.06%20PM.png?raw=true)
+
+
 Debian and Ubuntu-based systems: 
 -----------------
 [+] git clone https://github.com/chill-c0der2/geekstall2
