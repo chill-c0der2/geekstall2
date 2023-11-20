@@ -5,7 +5,7 @@ echo DETECTING..
 sleep 1
 echo DETECTING...
 sleep 1
-neofetch
+neofetch | lolcat
 sleep 2
 uname -a
 sleep 2
