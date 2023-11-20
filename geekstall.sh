@@ -7,10 +7,10 @@ echo DETECTING...
 sleep 1
 neofetch | lolcat
 sleep 2
-uname -a
+uname -a | lolcat
 sleep 2
 clear
-cat logo.txt
+cat logo.txt | lolcat
 echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
 echo -e "\e[1;31m Email: zaidyasinfrbackup@gmail.com \e[0m"
 sleep 2
