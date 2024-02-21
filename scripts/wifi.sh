@@ -25,5 +25,5 @@ do
             cat logo.txt
          ;;
         "Quit")
-            break
+            sudo bash geekstall.sh
             ;;
