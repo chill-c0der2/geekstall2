@@ -12,7 +12,7 @@ do
             git clone https://github.com/htr-tech/zphisher.git 
             cd geekstall2
             clear
-            logo.txt
+            cat logo.txt
             ;;
         "SEtoolkit")
       GREEN='\033[1;92m'

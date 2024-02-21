@@ -9,7 +9,7 @@ do
     echo -e "${GREEN}Installing"
            sudo apt install nmap
             clear
-            logo.txt
+            cat logo.txt
             ;;
         "routersploit")
       GREEN='\033[1;92m'

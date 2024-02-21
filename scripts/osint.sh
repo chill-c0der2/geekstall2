@@ -12,7 +12,7 @@ do
             git clone https://github.com/Datalux/Osintgram
             cd geekstall2
             clear
-            logo.txt
+          cat logo.txt
             ;;
         "Sherlock")
       GREEN='\033[1;92m'
