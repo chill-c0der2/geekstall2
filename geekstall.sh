@@ -1,6 +1,6 @@
 clear
 PS3='root@localstall: '
-options=("nmap" "aircrack" "zphisher" "routersploit" "DDos" "airgeddon" "Social-Engineer Toolkit") 
+options=("Wifi Tools" "Osint Tools" "Scanners" "MISC" "DDos" "airgeddon" "Social-Engineer Toolkit") 
 select opt in "${options[@]}" 
 do
     case $opt in
