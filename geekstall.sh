@@ -1,46 +1,23 @@
 clear
-echo DETECTING.
-sleep 1
-echo DETECTING..
-sleep 1
-echo DETECTING...
-sleep 1
-neofetch | lolcat
-sleep 2
-uname -a | lolcat
-sleep 2
-clear
-cat logo.txt | lolcat
-echo -e "\e[1;31m Coded By Zaid Yasin \e[0m"
-echo -e "\e[1;31m Email: zaidyasinfrbackup@gmail.com \e[0m"
-sleep 2
 PS3='root@localstall: '
 options=("nmap" "aircrack" "zphisher" "routersploit" "DDos" "airgeddon" "Social-Engineer Toolkit") 
 select opt in "${options[@]}" 
 do
     case $opt in
-        "nmap")
-            GREEN='\033[1;92m'
-    echo -e "${GREEN}Installing"
-        sudo apt install nmap
-            clear
+        "Wifi Tools")
+            cd scripts
+            sudo bash wifi.sh
             ;;
-        "aircrack")
+        "Osint Tools")
             GREEN='\033[1;92m'
     echo -e "${GREEN}Installing"
             sudo apt install aircrack-ng | lolcat
             clear
             ;;
-            "DDos")
-            GREEN='\033[1;92m'
-    echo -e "${GREEN}Installing"
-            cd ..
-            sudo apt install python3
-            git clone https://github.com/palahsu/DDoS-Ripper
-            cd geekstall2
-            clear
+            "Scanners")
+
             ;;
-        "zphisher")
+        "MISC")
             GREEN='\033[1;92m'
     echo -e "${GREEN}Installing"
             cd ..
