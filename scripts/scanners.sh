@@ -1,25 +1,22 @@
 cat logo.txt
 PS3='LOCALSTALL@INSTALL: '
-options=("airgeddon" "DDoS" "Return")
+options=("nmap" "routersploit" "Return")
 select opt in "${options[@]}"
 do
     case $opt in
-        "airgeddon")
+        "nmap")
  GREEN='\033[1;92m'
     echo -e "${GREEN}Installing"
-            cd ..
-            cd ..
-            git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
-            cd geekstall2
+           sudo apt install nmap
             clear
             logo.txt
             ;;
-        "DDoS")
+        "routersploit")
       GREEN='\033[1;92m'
     echo -e "${GREEN}Installing"
             cd ..
             cd ..
-            git clone https://github.com/palahsu/DDoS-Ripper
+            git clone https://github.com/threat9/routersploit.git
             cd geekstall2
             clear
             cat logo.txt
