@@ -25,6 +25,7 @@ do
             cat logo.txt
          ;;
         "Return")
+        cd ..
             sudo bash geekstall.sh
             ;;
     

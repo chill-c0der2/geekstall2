@@ -12,7 +12,7 @@ do
             git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
             cd geekstall2
             clear
-            logo.txt
+            cat logo.txt
             ;;
         "DDoS")
       GREEN='\033[1;92m'
@@ -25,6 +25,7 @@ do
             cat logo.txt
          ;;
         "Return")
+        cd ..
             sudo bash geekstall.sh
             ;;
     
