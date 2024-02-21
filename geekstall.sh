@@ -1,6 +1,7 @@
+cat logo.txt
 clear
 PS3='root@localstall: '
-options=("Wifi Tools" "Osint Tools" "Scanners" "MISC" "DDos" "airgeddon" "Social-Engineer Toolkit") 
+options=("Wifi Tools" "Osint Tools" "Scanners" "MISC" ) 
 select opt in "${options[@]}" 
 do
     case $opt in
@@ -20,7 +21,6 @@ do
             cd scripts
             sudo bash misc.sh
             ;;
-            
             
         *) echo "are you brain dead $REPLY is not a command";;
     esac

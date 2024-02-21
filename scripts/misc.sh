@@ -27,3 +27,7 @@ do
         "Return")
             sudo bash geekstall.sh
             ;;
+    
+        *) echo "are you brain dead $REPLY is not a command";;
+    esac
+done
