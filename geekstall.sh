@@ -1,5 +1,5 @@
 clear
-cat logo.txt/
+cat logo.txt
 PS3='root@localstall: '
 options=("Wifi Tools" "Osint Tools" "Scanners" "MISC" ) 
 select opt in "${options[@]}" 
