@@ -26,7 +26,8 @@ do
             cat logo.txt
          ;;
         "Return") 
-            sudo bash /geekstall2/geekstall.sh
+        cd ..
+            sudo bash geekstall.sh
             ;;
     
         *) echo "are you brain dead $REPLY is not a command";;

@@ -1,3 +1,4 @@
+clear
 cat logo.txt
 PS3='LOCALSTALL@INSTALL: '
 options=("zphisher" "SEtoolkit" "Return")
